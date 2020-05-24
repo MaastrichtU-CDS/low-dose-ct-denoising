@@ -17,10 +17,11 @@ import cv2
 
 import os
 import glob
-
+#The path of noised DICOM images
 dicompath='D:/Dataset/RIDER/RIDER Lung CT/RIDER-1129164940/09-20-2006-1-96508/4-24533/'
 
-jpgpath='D:/Dataset/RIDER/RIDER Lung CT/jpgfile/'
+#The path for storing converted PNG images
+jpgpath='D:/Dataset/RIDER/RIDER Lung CT/pngfile/'
 
 if not os.path.exists(jpgpath):
     os.mkdir(jpgpath)
@@ -36,7 +37,9 @@ for j in range(len(Dicomfiles)):
 # Convert to float to avoid overflow or underflow losses.
     image_2d = ds.pixel_array.astype(float)
 
-# Value Range normalization    
+# Value Range normalization 
+# This part of content is important for outputting DICOM images in CGAN
+# Value Range normalization is an crucial step in our project
     image_2d[image_2d>2000]=2000
     image_2d[image_2d<-2000]=-2000
 
