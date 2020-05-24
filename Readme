@@ -5,4 +5,10 @@ focus on executing project. The flowchart of executing code of this project was 
 
 You can find source codes of CGAN and the link of pretrained models in this branch.
 
-As you can see, there are three code files in our CGAN model, 
+As you can see, there are three code files in our CGAN model --Addnoiseinradiomic.m,convertdicomtopng.py and pix2pix.py.
+
+Addnoiseradiomic.m is the source code for MATLAB, you can find more details how to use this part of source code based on the
+annotates in codes.
+
+As we mentioned in our paper, the input images of our models are PNG orJPG images and the output images of our models are DICOM for better
+Radiomic calculation. Therefore, we need convert DICOM files to PNG/JPG files at first, you can use convertdicompng.py to finish this sept. 
