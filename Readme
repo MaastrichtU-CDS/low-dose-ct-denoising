@@ -12,3 +12,9 @@ We used tfrecord as the input file of our encoder-decoder network, therefore, we
 The generated tfrecords were used to train the encoder-decoder network and then the trained network used to denoise images. This part of job was finished by Second-Encoder-Decoder-networkRealdata.py, a python script.
 
 We used pretrained VGG-16 network to calculate content loss, the pretrained network can be found in https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM
+
+The statistical data used in paper 'Are All Shortcuts in Encoder-Decoder Networks Beneficial for CT Denoising?' store in directory Statistical Data in this Repository. There are 16 excel files in this directory root from 16 group of experiments. 
+
+A file named as 'Clear LUNG-UNet Content loss- forward' means this file store the results for experiment based on U-Net and LUNG1 dataset is the test dataset in experiment. Moreover, loss of this experiment is content loss and shortcuts are removed in forward moving, The other files are named follow with this manner.
+
+In the files, you can find label to indicate results root from high noisy images or low noisy images in first row. Moreover, you can find the number of moved shortcuts for experiments in second row. In some files, you may find the sum of each column in the last row.
