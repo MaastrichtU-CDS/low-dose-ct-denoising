@@ -10,5 +10,6 @@ As you can see, there are three code files in our CGAN model --Addnoiseinradiomi
 Addnoiseradiomic.m is the source code for MATLAB, you can find more details how to use this part of source code based on the
 annotates in codes.
 
-As we mentioned in our paper, the input images of our models are PNG orJPG images and the output images of our models are DICOM for better
-Radiomic calculation. Therefore, we need convert DICOM files to PNG/JPG files at first, you can use convertdicompng.py to finish this step. 
+As we mentioned in our paper, the input images of our models are PNG orJPG images and the output images of our models are DICOM for better Radiomic calculation. Therefore, we need convert DICOM files to PNG/JPG files at first, you can use convertdicompng.py to finish this step. 
+
+You can find one pre-trained CGAN (100 Epochs) at this link: https://www.amazon.de/clouddrive/share/3eiaXEQwr0jTwt7uNFOnhuWwb2YmUe5FA7nG8PDxyb6?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&mgh=1
