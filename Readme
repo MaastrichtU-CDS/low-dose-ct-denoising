@@ -11,4 +11,4 @@ Addnoiseradiomic.m is the source code for MATLAB, you can find more details how 
 annotates in codes.
 
 As we mentioned in our paper, the input images of our models are PNG orJPG images and the output images of our models are DICOM for better
-Radiomic calculation. Therefore, we need convert DICOM files to PNG/JPG files at first, you can use convertdicompng.py to finish this sept. 
+Radiomic calculation. Therefore, we need convert DICOM files to PNG/JPG files at first, you can use convertdicompng.py to finish this step. 
