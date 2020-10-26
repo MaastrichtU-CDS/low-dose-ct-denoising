@@ -13,3 +13,13 @@ annotates in codes.
 As we mentioned in our paper, the input images of our models are PNG orJPG images and the output images of our models are DICOM for better Radiomic calculation. Therefore, we need convert DICOM files to PNG/JPG files at first, you can use convertdicompng.py to finish this step. 
 
 You can find one pre-trained CGAN (100 Epochs) at this link: https://www.amazon.de/clouddrive/share/3eiaXEQwr0jTwt7uNFOnhuWwb2YmUe5FA7nG8PDxyb6?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0&mgh=1
+
+The specific procedure of using our trained CGAN are shown as follow:
+
+1.Copy Dicom files(one patient) to  ’./Data/Dicom/’
+2.Running ‘convenrtdicomtopng.py’, code will convert DICOM files to jpg file and store in ‘./Data/val/’
+3.Running ‘pix2pix.py’,code will output result in ‘./Data/Result/’, there are two kind of outputs, one type is jpg images which store in ‘./Data/Result/images’, the another type is DICOM images, which store in ‘./Data/Result/dicomimages’
+
+Due to limited space of our amazon online drive, there are only one trained CGAN models is available at this moment. You can find more about more pre-trained model at here.
+
+The pre-trained model can be ran by using PC, it took 0.8s to process one image (by using a Core i7 8565 U CPU)
