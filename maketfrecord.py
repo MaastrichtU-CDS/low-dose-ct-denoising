@@ -18,10 +18,10 @@ import numpy as np
 import xlrd
 
 
-datafile='./Radiomic features and an Example of TFrecord/normalizedsummary.xlsx'
-datafile2='./Radiomic features and an Example of TFrecord/simulationNegativeSummary.xlsx'
-writer1= tf.python_io.TFRecordWriter("./Radiomic features and an Example of TFrecord/SA60Train2.tfrecords") 
-writer2= tf.python_io.TFRecordWriter("./Radiomic features and an Example of TFrecord/SA60Test2.tfrecords")
+datafile='./EDNs Radiomic features and an Example of TFrecord/normalizedsummary.xlsx'
+datafile2='./EDNs Radiomic features and an Example of TFrecord/simulationNegativeSummary.xlsx'
+writer1= tf.python_io.TFRecordWriter("./EDNs Radiomic features and an Example of TFrecord/MILTrain2.tfrecords") 
+writer2= tf.python_io.TFRecordWriter("./EDNs Radiomic features and an Example of TFrecord/MILTest2.tfrecords")
 
 count=0
 count2=0
