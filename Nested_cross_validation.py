@@ -20,7 +20,7 @@ plt.rc("font", **font)
 #Section 1: Load Breast data, i.e., Benign and Malignant
 resArray=[] #先声明一个空list
 # Load the dataset
-data = xlrd.open_workbook("A:/Dataset/NSCLC Radiogenomics files/NSCLC Radiogenomics/denoised50epochs(CycleGAN)summary.xlsx") #读取文件
+data = xlrd.open_workbook(".//denoised50epochs(CycleGAN)summary.xlsx") #读取文件
 table = data.sheet_by_index(0) #按索引获取工作表，0就是工作表1
 normArray=np.random.rand(table.nrows,105)
 for i in range(table.nrows): #table.nrows表示总行数
