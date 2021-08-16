@@ -1,8 +1,14 @@
 Here is code and support materials of paper 'Generative Models Improve Radiomics Performance in Different Tasks and
 Different Datasets: An Experimental Study'
 
+Repositorys of ENDs and CGAN Radiomics features and an Example of TFrecord are stored data for deep attention based 
+multiple instance learning (MIL) problem, moreover, files maketfrecord.py and MILnetwork.py are used in MIL problem.
+
 In the Repository of ENDs Radiomics features and an Example of TFrecord, you can find the summary of radiomics
-features calculated from encoder-decoder network (trained at 100 epochs) denoised LIDC-IDRI dataset (in EDNsummary.xlsx file), summary of normalized radiomics (in EDNnormalizedsummary.xlsx file) and summary of simulation neagtive bags (in ENDsimulationNegativeSummary.xlsx file) and an example of generated MIL training and testing TFrecord.
+features calculated from encoder-decoder network (trained at 100 epochs) denoised LIDC-IDRI dataset 
+(in EDNsummary.xlsx file), summary of normalized radiomics (in EDNnormalizedsummary.xlsx file) and summary of 
+simulation neagtive bags (in ENDsimulationNegativeSummary.xlsx file) and an example of generated MIL training and 
+testing TFrecord.
 
 In the Repository of CGAN Radiomics features and an Example of TFrecord, you can find the summary of radiomics
 features calculated from CGAN (Trained at 100 epochs) denoised LIDC-IDRI dataset (in CGAN summary.xlsx file), 
@@ -11,4 +17,5 @@ CGAN simulationNegativeSummary.xlsx file) and an example of generated MIL traini
 
 You can use maketfrecord.py to create a new training and testing TFrecord by using normalizedsummary.xlsx and 
 simulationNegativeSummary.xlsx file as mentioned above.
+
 You can use MILnetwork.py to run and vaildate our proposed methods
