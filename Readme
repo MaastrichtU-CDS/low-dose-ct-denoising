@@ -2,10 +2,12 @@ Here is code and support materials of paper 'Generative Models Improve Radiomics
 Different Datasets: An Experimental Study'
 
 In the Repository of ENDs Radiomics features and an Example of TFrecord, you can find the summary of radiomics
-features calculated from encoder-decoder network denoised LIDC-IDRI dataset (in EDNsummary.xlsx file), summary of
-normalized radiomics (in EDNnormalizedsummary.xlsx file) and summary of simulation neagtive bags (in
-ENDsimulationNegativeSummary.xlsx file) and an example of MIL training and testing TFrecord.
+features calculated from encoder-decoder network (trained at 100 epochs) denoised LIDC-IDRI dataset (in EDNsummary.xlsx file), summary of normalized radiomics (in EDNnormalizedsummary.xlsx file) and summary of simulation neagtive bags (in ENDsimulationNegativeSummary.xlsx file) and an example of generated MIL training and testing TFrecord.
 
+In the Repository of CGAN Radiomics features and an Example of TFrecord, you can find the summary of radiomics
+features calculated from CGAN (Trained at 100 epochs) denoised LIDC-IDRI dataset (in CGAN summary.xlsx file), 
+summary of normalized radiomics (in CGAN normalizedsummary.xlsx file) and summary of simulation neagtive bags (in
+CGAN simulationNegativeSummary.xlsx file) and an example of generated MIL training and testing TFrecord.
 
 You can use maketfrecord.py to create a new training and testing TFrecord by using normalizedsummary.xlsx and 
 simulationNegativeSummary.xlsx file as mentioned above.
