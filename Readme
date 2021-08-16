@@ -20,4 +20,5 @@ simulationNegativeSummary.xlsx file as mentioned above.
 
 You can use MILnetwork.py to run proposed method and validate our results.
 
-In the Repository Radiomics features of survival prediction task stored radiomics features for survival prediction task, and Nested cross validation.py used to calculate the AUC of prediction task.
+In the Repository Radiomics features of survival prediction task stored radiomics features for survival prediction 
+task, and Nested cross validation.py used to calculate the AUC of prediction task.
