@@ -1,7 +1,7 @@
 Here is code and support materials of paper 'Generative Models Improve Radiomics Performance in Different Tasks and
 Different Datasets: An Experimental Study'
 
-Repositorys of ENDs and CGAN Radiomics features and an Example of TFrecord are stored data for deep attention based 
+Repositorys of ENDs and CGAN Radiomics features and an Example of TFrecord stored data for deep attention based 
 multiple instance learning (MIL) problem, moreover, files maketfrecord.py and MILnetwork.py are used in MIL problem.
 
 In the Repository of ENDs Radiomics features and an Example of TFrecord, you can find the summary of radiomics
@@ -19,3 +19,5 @@ You can use maketfrecord.py to create a new training and testing TFrecord by usi
 simulationNegativeSummary.xlsx file as mentioned above.
 
 You can use MILnetwork.py to run proposed method and validate our results.
+
+In the Repository Radiomics features of survival prediction task stored radiomics features for survival prediction task, and Nested cross validation.py used to calculate the AUC of prediction task.
