@@ -18,4 +18,4 @@ CGAN simulationNegativeSummary.xlsx file) and an example of generated MIL traini
 You can use maketfrecord.py to create a new training and testing TFrecord by using normalizedsummary.xlsx and 
 simulationNegativeSummary.xlsx file as mentioned above.
 
-You can use MILnetwork.py to run and vaildate our proposed methods
+You can use MILnetwork.py to run proposed method and validate our results.
