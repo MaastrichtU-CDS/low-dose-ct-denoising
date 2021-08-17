@@ -1,4 +1,2 @@
-Here is the explanatory material for paper'Generative Models Improve Radiomics Reproducibility in Low Dose CTs: A Simulation Study'
-
-Three generative models --Encoder-decoder network, Conditional Generative Adversarial Networks(CGAN), Cycle GAN-- were selected as test models. This part of content
-focus on executing project. The flowchart of executing code of this project was show as follow.
+Here is the explanatory material for paper 'Improving Reproducibility and Performance of Radiomics in Low Dose CT 
+using Cycle GANs'.
