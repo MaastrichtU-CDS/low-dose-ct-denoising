@@ -1,2 +1,4 @@
 Here is the explanatory material for paper 'Improving Reproducibility and Performance of Radiomics in Low Dose CT 
 using Cycle GANs'.
+
+Codes of this Cycle GAN are heavily reused from vanhuyz(https://github.com/vanhuyz/CycleGAN-TensorFlow) 
