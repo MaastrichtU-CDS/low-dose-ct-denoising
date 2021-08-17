@@ -2,3 +2,5 @@ Here is the explanatory material for paper 'Improving Reproducibility and Perfor
 using Cycle GANs'.
 
 Codes of this Cycle GAN are heavily reused from vanhuyz(https://github.com/vanhuyz/CycleGAN-TensorFlow) 
+
+build_data.py used to build TFrecord to train Cycle GAN. 
