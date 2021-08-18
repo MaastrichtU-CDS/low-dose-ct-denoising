@@ -39,10 +39,10 @@ class Reader():
       image_buffer = features['image/encoded_image']
       image = tf.image.decode_jpeg(image_buffer, channels=3)
       image = self._preprocess(image)
-      images = tf.train.shuffle_batch(
+      images = tf.train.batch(
             [image], batch_size=self.batch_size, num_threads=self.num_threads,
             capacity=self.min_queue_examples + 3*self.batch_size,
-            min_after_dequeue=self.min_queue_examples
+            #min_after_dequeue=self.min_queue_examples
           )
 
       tf.summary.image('_input', images)
