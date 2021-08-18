@@ -3,4 +3,7 @@ using Cycle GANs'.
 
 Codes of this Cycle GAN are heavily reused from vanhuyz(https://github.com/vanhuyz/CycleGAN-TensorFlow) 
 
-build_data.py used to build TFrecord to train Cycle GAN. 
+build_data.py used to build TFrecord to train Cycle GAN. As we mentioned in our paper, we introduced slice-paired 
+training strategy in Cycle GAN training, in our execution of this strategy, we need to push training images into 
+two TFrecords (TFrecord for original domain and for target domain) in paired manner. In other words, images need to 
+store in paired manner in two  
