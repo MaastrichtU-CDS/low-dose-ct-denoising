@@ -40,8 +40,8 @@ def data_reader(input_dir, shuffle=True):
     # random ordering of the images with respect to label in the
     # saved TFRecord files. Make the randomization repeatable.
     shuffled_index = list(range(len(file_paths)))
-    random.seed(12345)
-    random.shuffle(shuffled_index)
+    # random.seed(12345)
+    # random.shuffle(shuffled_index)
 
     file_paths = [file_paths[i] for i in shuffled_index]
 
