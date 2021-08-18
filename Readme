@@ -7,6 +7,5 @@ build_data.py used to build TFrecord to train Cycle GAN. As we mentioned in our 
 training strategy in Cycle GAN training, in our execution of this strategy, we need to push training images into 
 two TFrecords (TFrecord for original domain and for target domain) in paired manner. In other words, images need to 
 store in paired manner in two directories. More specific, first image of low dose CT images named as '000001.jpg'
-in directory 1 and the corresponding images named as '000001.jpg' in directory 2. The generatored TFrecord can be used
-in ablation study training too, random feeding for networks can be achieved in reader.py
-
+in directory 1 and the corresponding images named as '000001.jpg' in directory 2. The generatored TFrecords can be 
+used in ablation study training too, random feeding for networks can be achieved in reader.py
