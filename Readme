@@ -1,8 +1,8 @@
 Here is code and support materials of paper 'Generative Models Improve Radiomics Performance in Different Tasks and
 Different Datasets: An Experimental Study', this paper high related with our pervious papers 'Generative models
- improve radiomics reproducibility in low dose CTs: a simulation study'(https://iopscience.iop.org/article/10.1088/1361-6560/ac16c0) 
+improve radiomics reproducibility in low dose CTs: a simulation study'(https://iopscience.iop.org/article/10.1088/1361-6560/ac16c0) 
 and paper 'Lung Cancer Diagnosis Using Deep Attention Based on Multiple Instance Learning and Radiomics' (https://arxiv.org/abs/2104.14655).
- Reading our pervious papers and related codes in advance can help you to understand this paper and code better.
+Reading our pervious papers and related codes in advance can help you to understand this paper and code better.
 
 Repositorys of ENDs and CGAN Radiomics features and an Example of TFrecord stored data for deep attention based 
 multiple instance learning (MIL) problem, moreover, files maketfrecord.py and MILnetwork.py are used in MIL problem.
