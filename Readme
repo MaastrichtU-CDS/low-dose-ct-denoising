@@ -19,4 +19,5 @@ export_graph.py was the third file we need to run when network training was fini
 inference.py was the last file we need to run, speed of inference.py running would decrease when inference.py has 
 transferred over 100 images in one running. You need to kill and restart your kernel.
 
-The pre-trained models of our study can be find here.
+The pre-trained models of our study can be find here. Using the pre-trained models, you can use inference.py to 
+denoise low dose CT directly. 
