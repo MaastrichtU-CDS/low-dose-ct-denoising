@@ -19,8 +19,8 @@ import utils
 FLAGS = tf.flags.FLAGS
 
 tf.flags.DEFINE_string('checkpoint_dir', './checkpoints/20210420-0712', 'checkpoints directory path')
-tf.flags.DEFINE_string('XtoY_model', 'random-reallowdose2standard75epochs.pb', 'XtoY model name, default: random-noisy2standard.pb')
-tf.flags.DEFINE_string('YtoX_model', 'random-standard2reallowdose75epochs.pb', 'YtoX model name, default: random-standard2noisy.pb')
+tf.flags.DEFINE_string('XtoY_model', 'part_A2part_B.pb', 'XtoY model name, default: random-noisy2standard.pb')
+tf.flags.DEFINE_string('YtoX_model', 'part_B2part_A.pb', 'YtoX model name, default: random-standard2noisy.pb')
 tf.flags.DEFINE_integer('image_size', '512', 'image size, default: 512')
 tf.flags.DEFINE_integer('ngf', 64,
                         'number of gen filters in first conv layer, default: 64')
