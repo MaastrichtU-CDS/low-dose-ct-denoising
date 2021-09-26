@@ -16,9 +16,9 @@ tf.flags.DEFINE_string('X_input_dir', './data/part_A',
                        'X input directory, default: data/apple2orange/trainA')
 tf.flags.DEFINE_string('Y_input_dir', './data/part_B',
                        'Y input directory, default: data/apple2orange/trainB')
-tf.flags.DEFINE_string('X_output_file', './data/part_A.tfrecords',
+tf.flags.DEFINE_string('X_output_file', './data/tfrecords/part_A.tfrecords',
                        'X output tfrecords file, default: data/tfrecords/apple.tfrecords')
-tf.flags.DEFINE_string('Y_output_file', './data/part_B.tfrecords',
+tf.flags.DEFINE_string('Y_output_file', './data/tfrecords/part_B.tfrecords',
                        'Y output tfrecords file, default: data/tfrecords/orange.tfrecords')
 
 
