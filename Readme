@@ -7,5 +7,16 @@ build_data.py used to build TFrecord to train Cycle GAN. As we mentioned in our 
 training strategy in Cycle GAN training, in our execution of this strategy, we need to push training images into 
 two TFrecords (TFrecord for original domain and for target domain) in paired manner. In other words, images need to 
 store in paired manner in two directories. More specific, first image of low dose CT images named as '000001.jpg'
-in directory 1 and the corresponding images named as '000001.jpg' in directory 2. The generatored TFrecords can be 
-used in ablation study training too, random feeding for networks can be achieved in reader.py
+in directory './data/part_A' and the corresponding high dose CT images named as '000001.jpg' in directory './data/
+part_B'. The generatored TFrecords can be used in ablation study training too, random feeding for networks can be 
+achieved in reader.py
+
+train.py used to train netwotk, we ran train.py in your deep learning IDE environment, and then waited network 
+training arrive our wanted epochs. Toolbox tensorboard can be used to monitor model training.
+
+export_graph.py was the third file we need to run when network training was finished.
+
+inference.py was the last file we need to run, speed of inference.py running would decrease when inference.py has 
+transferred over 100 images in one running. You need to kill and restart your kernel.
+
+The pre-trained models of our study can be find here.
