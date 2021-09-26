@@ -13,9 +13,11 @@ directory './data/part_B'. The generatored TFrecords can be used in ablation stu
 networks can be achieved in reader.py
 
 train.py used to train netwotk, we ran train.py in your deep learning IDE environment, and then waited network 
-training arrive our wanted epochs. Toolbox tensorboard can be used to monitor model training.
+training arrive our wanted epochs. Toolbox tensorboard can be used to monitor model training. Killing kernel when
+you think network training has been finished.
 
-export_graph.py was the third file we need to run when network training was finished.
+export_graph.py was the third file we need to run when network training was finished. You need to rewrite parameter
+'checkpoints' to the dir stored your training files.
 
 inference.py was the last file we need to run, speed of inference.py running would decrease when inference.py has 
 transferred over 100 images in one running. You need to kill and restart your kernel.
