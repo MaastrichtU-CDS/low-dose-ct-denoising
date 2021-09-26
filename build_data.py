@@ -12,13 +12,13 @@ except ImportError:
 
 FLAGS = tf.flags.FLAGS
 
-tf.flags.DEFINE_string('X_input_dir', 'A:/Dataset/NSCLC-Radiomics-Genomics files/Vaildjpgimages4',
+tf.flags.DEFINE_string('X_input_dir', './data/part_A',
                        'X input directory, default: data/apple2orange/trainA')
-tf.flags.DEFINE_string('Y_input_dir', 'A:/Dataset/manifest-1Rd7jPNd5199284876140322680/FilesTCGA-LUAD/standardimage4',
+tf.flags.DEFINE_string('Y_input_dir', './data/part_B',
                        'Y input directory, default: data/apple2orange/trainB')
-tf.flags.DEFINE_string('X_output_file', 'A:/Dataset/Adapt CycleGAN/data/tfrecords/realdatarandom4.tfrecords',
+tf.flags.DEFINE_string('X_output_file', './data/part_A.tfrecords',
                        'X output tfrecords file, default: data/tfrecords/apple.tfrecords')
-tf.flags.DEFINE_string('Y_output_file', 'A:/Dataset/Adapt CycleGAN/data/tfrecords/standardrandom4.tfrecords',
+tf.flags.DEFINE_string('Y_output_file', './data/part_B.tfrecords',
                        'Y output tfrecords file, default: data/tfrecords/orange.tfrecords')
 
 
