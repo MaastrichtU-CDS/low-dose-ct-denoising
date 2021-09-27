@@ -29,7 +29,7 @@ def inference():
     with tf.gfile.FastGFile(FLAGS.model, 'rb') as model_file:
         graph_def = tf.GraphDef()
         graph_def.ParseFromString(model_file.read())
-    for i in range(0,10):
+    for i in range(1,6):
         FLAGS.input="./data/Results/inputs/"+str(i).rjust(6,'0')+".jpg"
         
         FLAGS.output="./data/Results/outputs/"+str(i).rjust(6,'0')+".jpg"
