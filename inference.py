@@ -29,10 +29,10 @@ def inference():
     with tf.gfile.FastGFile(FLAGS.model, 'rb') as model_file:
         graph_def = tf.GraphDef()
         graph_def.ParseFromString(model_file.read())
-    for i in range(3550,3750):
-        FLAGS.input="./data/Results/RIDER CycleGANTestdata/RIDER CycleGANTestdata/"+str(i).rjust(6,'0')+".jpg"
+    for i in range(0,10):
+        FLAGS.input="./data/Results/inputs/"+str(i).rjust(6,'0')+".jpg"
         
-        FLAGS.output="./data/Results/RIDER result real data 75 epochs/"+str(i).rjust(6,'0')+".jpg"
+        FLAGS.output="./data/Results/outputs/"+str(i).rjust(6,'0')+".jpg"
 #        secondinput="./data/Results/highnoiseimages/original high noisy data/"+str(i).rjust(6,'0')+".jpg"
 #        secondoutput="./data/Results/highnoisy100epochs/"+str(i).rjust(6,'0')+".jpg"
         with tf.gfile.FastGFile(FLAGS.input, 'rb') as f:
