@@ -10,7 +10,8 @@ store in paired manner in two directories. More specific, first image of low dos
 (images should be stored in grey manner rather than RGB manner, mean while, we suggest to reshape your images into
 512*512 size) in directory './data/part_A' and the corresponding high dose CT images named as '000001.jpg' in 
 directory './data/part_B'. The generatored TFrecords can be used in ablation study training too, random feeding for 
-networks can be achieved in reader.py. we added 2 sample images into part_A and part_B directory.
+networks can be achieved in reader.py. we added 2 sample images into part_A and part_B directory, now clear images 
+are stored in part_B directory and noisy images are stored in part_A directory.
 
 train.py used to train netwotk, we ran train.py in your deep learning IDE environment, and then waited network 
 training arrive our wanted epochs. Toolbox tensorboard can be used to monitor model training. Killing kernel when
