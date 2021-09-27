@@ -17,7 +17,7 @@ import utils
 
 FLAGS = tf.flags.FLAGS
 
-tf.flags.DEFINE_string('model', './pretrained/random-standard2reallowdose75epochs.pb', 'model path (.pb)')
+tf.flags.DEFINE_string('model', './pretrained/part_A2part_B.pb', 'model path (.pb)')
 tf.flags.DEFINE_string('input', '', 'input image path (.jpg)')
 tf.flags.DEFINE_string('output', '', 'output image path (.jpg)')
 tf.flags.DEFINE_integer('image_size', '512', 'image size, default: 512')
