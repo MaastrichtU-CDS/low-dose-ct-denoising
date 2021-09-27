@@ -17,10 +17,13 @@ training arrive our wanted epochs. Toolbox tensorboard can be used to monitor mo
 you think network training has been finished.
 
 export_graph.py was the third file we need to run when network training was finished. You need to rewrite parameter
-'checkpoints' to the dir stored your training files.
+'checkpoints' to the dir which stored your training files.
 
 inference.py was the last file we need to run, speed of inference.py running would decrease when inference.py has 
-transferred over 100 images in one running. You need to kill and restart your kernel.
+transferred over 100 images in one running. You need to kill and restart your kernel. For images which stored in 
+'./data/Results/inputs',you need to renamed image as '000001.jpg'. We added 5 noisy CT image samples into inputs and
+we suggest you to use model 'Simulation Data Trained Cycle GAN' to denoise sample image, link of pre-trained models 
+are shown as follow. 
 
-The pre-trained models of our study can be find here(https://www.amazon.de/clouddrive/share/4TAMHE1Zc9jlj4Wg065qDsj64FEOFm7tdWzGYcnPfsT)
+The pre-trained models of our study can be find here(https://www.amazon.de/clouddrive/share/CLZZX0itnAMyYlFaeexgTMVe9yyCTnLIuYOQhrO90uk)
 Using the pre-trained models, you can use inference.py to denoise low dose CT directly. 
